@@ -1,0 +1,60 @@
+.div1{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.compo{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(80, 7, 7);
+  color: aqua;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin: 23px;
+    flex-direction: row;
+}/* Body.css */
+.div1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.compo {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.compo h1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.compo p {
+  font-size: 16px;
+  color: #666;
+}
+
+.compo button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.compo button:hover {
+  background-color: #0056b3;
+}
